@@ -28,9 +28,12 @@ function draw() {
   }
   if(bullet1.isTouching(wall1)){
    bullet1.velocityX = -30;
+ bullet1.shapeColor = "red";
   }
+  
   if(bullet2.isTouching(wall2)){
     bullet2.velocityX = -35;
+    
    }
    if(bullet3.isTouching(wall3)){
     car3.velocityX = -40;
